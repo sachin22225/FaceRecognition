@@ -20,6 +20,11 @@ we'd like to make sure that an image  A(i)  of an individual is closer to the Po
 we would thus like to minimize the following "triplet cost":
 j=sum for all traning example(||f(A(i))-f(P(i))||^2-||f(A(i))-f(N(i))||^2+a)
 The model accuracy is 95.6%
+
+
+
+
+
 Installation
 1.Clone this repository
 2.install mention dependency
