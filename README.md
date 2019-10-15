@@ -20,4 +20,17 @@ we'd like to make sure that an image  A(i)  of an individual is closer to the Po
 we would thus like to minimize the following "triplet cost":
 j=sum for all traning example(||f(A(i))-f(P(i))||^2-||f(A(i))-f(N(i))||^2+a)
 The model accuracy is 95.6%
+Installation
+1.Clone this repository
+2.install mention dependency
+Tensorflow>=1.5.0
+Keras>=2.2.4
+Python=3.6
+opencv>=4.0.0
+Matplotlib>=3.0.2
+Numpy>=1.15.4
+
+Execution
+The Face_Recognition.ipynb have a code.Use jupyter Notebook to run the code
+
 
